@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Menu</h1>
+<h4>подробная информация о товаре</h4>
+<b>название товара:</b>${product.title}<br>
+<b>орисание товара:</b>${product.description}<br>
+<b>цена:</b>${product.price}<br>
+<b>город:</b>${product.city}<br>
+<b>автор:</b>${product.author}<br>
+    <hr>
+    <h3>удалить товар</h3>
+    <form action="/product/delete/${product.id}" method="post" >
+        <input type="submit" value="удалить товар"/>
+
+    </form>
+</body>
+</html>
