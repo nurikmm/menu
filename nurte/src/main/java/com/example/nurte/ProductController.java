@@ -6,10 +6,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
-
+//TODO Эти 2 аннотации проктическии идентичны, оставь ту которая тебе нужна
 @Controller
 @RestController
-
+//TODO Лишняя строка
 public class ProductController {
     private final ProductService productService;
 

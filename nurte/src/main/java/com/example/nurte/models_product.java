@@ -2,8 +2,9 @@ package com.example.nurte;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
-
+//TODO Переименуй класс должен быть camelCase
 public class models_product {
+    //TODO Вложенный класс, можешь переменные из него перенести в основной класс и Product удалить
     @Data
     @AllArgsConstructor
 
